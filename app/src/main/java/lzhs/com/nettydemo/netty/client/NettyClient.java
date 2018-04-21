@@ -107,29 +107,6 @@ public class NettyClient {
         return flag;
     }
 
-    public void sendMsgToServer(final String sendMsg) {
-
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                try {
-                    if (channel != null && channel.isOpen()) {
-                        channel.writeAndFlush(sendMsg).sync();
-                        listener.onServiceStatusConnectChanged(Const.SEND_SUCCESS_CODE);
-                    } else {
-                        throw new Exception("channel is null | closed");
-                    }
-                } catch (Exception e) {
-                    Log.e(TAG, "send failed " + e.getMessage());
-                    listener.onServiceStatusConnectChanged(Const.SEND_FALIE_CODE);
-                    e.printStackTrace();
-                }
-            }
-        }).start();
-
-
-    }
-
     public void setReconnectNum(int reconnectNum) {
         this.reconnectNum = reconnectNum;
     }

@@ -5,9 +5,13 @@ import android.content.Intent;
 import android.os.IBinder;
 import android.util.Log;
 
+import com.alibaba.fastjson.JSONObject;
+
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
+
+import java.io.UnsupportedEncodingException;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelFuture;
@@ -71,15 +75,25 @@ public class NettyService extends Service implements NettyListener {
 
     @Override
     public void onMessageResponse(ByteBuf byteBuf) {
-        MessageEvent msg = new MessageEvent();
-        msg.setMsg(byteBuf.toString());
-        msg.setCode(Const.ACCEPT_CODE);
+        try {
+            MessageEvent msg = new MessageEvent();
+            msg.setMsg("来自服务器消息");
+            byte[] req = new byte[byteBuf.readableBytes()];
+            byteBuf.readBytes(req);
+            String body = new String(req, "UTF-8");
+            msg.setData(body);
+            msg.setCode(Const.ACCEPT_CODE);
+            EventBus.getDefault().post(msg);
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
     }
 
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onMessageEvent(MessageEvent event) {/* Do something */
         if (event.getCode() == Const.SEND_CODE)
-            NettyClient.getInstance().sendMsgToServer(((String) event.getData()).getBytes(), new ChannelFutureListener() {
+            NettyClient.getInstance().sendMsgToServer(((String) event.getData()).getBytes()
+                    , new ChannelFutureListener() {
                 @Override
                 public void operationComplete(ChannelFuture future) throws Exception {
                     if (future.isSuccess()) {

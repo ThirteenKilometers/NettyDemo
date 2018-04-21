@@ -9,4 +9,6 @@ targetCompatibility = "1.7"
 
 dependencies {
     implementation 'io.netty:netty-all:5.0.0.Alpha2'
+    implementation 'com.alibaba:fastjson:1.2.47'
+
 }

@@ -11,99 +11,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c2c51e8-013e-411c-ae6e-ee3dcd675163" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gradle/4.4/fileChanges/last-build.bin" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_1_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_27_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_27_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_1_1_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_27_1_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_27_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_27_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_27_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_27_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_27_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_rules_1_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/NettyDemo.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Serverlib/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Serverlib/build.gradle" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Serverlib/src/main/java/lzhs/com/serverlib/TimeServer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Serverlib/src/main/java/lzhs/com/serverlib/TimeServerHandler.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/proguard-rules.pro" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/androidTest/java/lzhs/com/nettydemo/ExampleInstrumentedTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/BaseApplication.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/MainActivity.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/beans/BaseMagBean.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/beans/MessageEvent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/NettyService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/Const.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/NettyClient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/NettyClientHandler.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/NettyClientInitializer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/NettyListener.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/test/java/lzhs/com/nettydemo/ExampleUnitTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gradle.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gradlew" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/gradlew.bat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/local.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/settings.gradle" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Serverlib/src/main/java/lzhs/com/serverlib/BaseMagBean.java" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Serverlib/build.gradle" afterPath="$PROJECT_DIR$/Serverlib/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/Serverlib/src/main/java/lzhs/com/serverlib/TimeServerHandler.java" afterPath="$PROJECT_DIR$/Serverlib/src/main/java/lzhs/com/serverlib/TimeServerHandler.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/MainActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/NettyService.java" afterPath="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/NettyService.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/NettyClient.java" afterPath="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/NettyClient.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -126,55 +48,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="90" column="32" lean-forward="false" selection-start-line="90" selection-start-column="32" selection-end-line="90" selection-end-column="32" />
+            <state relative-caret-position="219">
+              <caret line="70" column="42" lean-forward="true" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
+              <folding>
+                <element signature="class#977:1507" expanded="false" />
+                <element signature="method#createBean#0;class#MainActivity#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageEvent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/beans/MessageEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TimeServerHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Serverlib/src/main/java/lzhs/com/serverlib/TimeServerHandler.java">
+      <file leaf-file-name="NettyService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/NettyService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="316">
+              <caret line="87" column="17" lean-forward="true" selection-start-line="77" selection-start-column="8" selection-end-line="87" selection-end-column="17" />
+              <folding>
+                <element signature="docComment;class#NettyService#0" expanded="false" />
+                <element signature="method#onCreate#0;class#NettyService#0" expanded="false" />
+                <element signature="method#onStartCommand#0;class#NettyService#0" expanded="false" />
+                <element signature="method#onDestroy#0;class#NettyService#0" expanded="false" />
+                <element signature="e#2875#3304#0" expanded="true" />
+                <element signature="e#3303#3304#0" expanded="true" />
+                <element signature="docComment;method#onServiceStatusConnectChanged#0;class#NettyService#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TimeServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Serverlib/src/main/java/lzhs/com/serverlib/TimeServer.java">
+      <file leaf-file-name="NettyClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/NettyClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/BaseApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="32" column="37" lean-forward="false" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
-              <folding />
+            <state relative-caret-position="302">
+              <caret line="54" column="33" lean-forward="false" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+              <folding>
+                <element signature="e#3126#3127#0" expanded="true" />
+                <element signature="e#3174#3175#0" expanded="true" />
+                <element signature="e#3353#3354#0" expanded="true" />
+                <element signature="e#3385#3386#0" expanded="true" />
+                <element signature="e#3437#3438#0" expanded="true" />
+                <element signature="e#3476#3477#0" expanded="true" />
+                <element signature="e#3531#3532#0" expanded="true" />
+                <element signature="e#3571#3572#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -184,112 +113,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
               <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="24" />
-              <folding>
-                <element signature="e#729#730#0" expanded="true" />
-                <element signature="e#758#759#0" expanded="true" />
-                <element signature="e#806#807#0" expanded="true" />
-                <element signature="e#842#843#0" expanded="true" />
-                <element signature="e#875#876#0" expanded="true" />
-                <element signature="e#904#905#0" expanded="true" />
-                <element signature="e#948#949#0" expanded="true" />
-                <element signature="e#984#985#0" expanded="true" />
-                <element signature="e#1023#1024#0" expanded="true" />
-                <element signature="e#1053#1054#0" expanded="true" />
-                <element signature="e#1104#1105#0" expanded="true" />
-                <element signature="e#1142#1143#0" expanded="true" />
-                <element signature="e#1176#1177#0" expanded="true" />
-                <element signature="e#1206#1207#0" expanded="true" />
-                <element signature="e#1253#1254#0" expanded="true" />
-                <element signature="e#1291#1292#0" expanded="true" />
-                <element signature="e#1325#1326#0" expanded="true" />
-                <element signature="e#1355#1356#0" expanded="true" />
-                <element signature="e#1401#1402#0" expanded="true" />
-                <element signature="e#1439#1440#0" expanded="true" />
-                <element signature="e#1490#1491#0" expanded="true" />
-                <element signature="e#1523#1524#0" expanded="true" />
-                <element signature="e#1589#1590#0" expanded="true" />
-                <element signature="e#1633#1634#0" expanded="true" />
-                <element signature="e#1913#1914#0" expanded="true" />
-                <element signature="e#1952#1953#0" expanded="true" />
-                <element signature="e#2004#2005#0" expanded="true" />
-                <element signature="e#2052#2053#0" expanded="true" />
-                <element signature="e#2089#2090#0" expanded="true" />
-                <element signature="e#2126#2127#0" expanded="true" />
-                <element signature="e#2174#2175#0" expanded="true" />
-                <element signature="e#2218#2219#0" expanded="true" />
-                <element signature="e#2252#2253#0" expanded="true" />
-                <element signature="e#2286#2287#0" expanded="true" />
-                <element signature="e#2328#2329#0" expanded="true" />
-                <element signature="e#2366#2367#0" expanded="true" />
-                <element signature="e#2664#2665#0" expanded="true" />
-                <element signature="e#2702#2703#0" expanded="true" />
-                <element signature="e#2753#2754#0" expanded="true" />
-                <element signature="e#2799#2800#0" expanded="true" />
-                <element signature="e#2837#2838#0" expanded="true" />
-                <element signature="e#2875#2876#0" expanded="true" />
-                <element signature="e#2925#2926#0" expanded="true" />
-                <element signature="e#2971#2972#0" expanded="true" />
-                <element signature="e#3014#3015#0" expanded="true" />
-                <element signature="e#3057#3058#0" expanded="true" />
-                <element signature="e#3117#3118#0" expanded="true" />
-                <element signature="e#3173#3174#0" expanded="true" />
-                <element signature="e#3469#3470#0" expanded="true" />
-                <element signature="e#3508#3509#0" expanded="true" />
-                <element signature="e#3560#3561#0" expanded="true" />
-                <element signature="e#3608#3609#0" expanded="true" />
-                <element signature="e#3645#3646#0" expanded="true" />
-                <element signature="e#3682#3683#0" expanded="true" />
-                <element signature="e#3730#3731#0" expanded="true" />
-                <element signature="e#3774#3775#0" expanded="true" />
-                <element signature="e#3808#3809#0" expanded="true" />
-                <element signature="e#3842#3843#0" expanded="true" />
-                <element signature="e#3884#3885#0" expanded="true" />
-                <element signature="e#3922#3923#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NettyService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/NettyService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="81" column="53" lean-forward="false" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2432#2861#0" expanded="true" />
-                <element signature="e#2860#2861#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NettyClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/NettyClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="100" column="69" lean-forward="false" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="69" />
-              <folding>
-                <element signature="e#3152#3854#0" expanded="true" />
-                <element signature="e#3853#3854#0" expanded="true" />
-                <element signature="e#3924#3925#0" expanded="true" />
-                <element signature="e#3972#3973#0" expanded="true" />
-                <element signature="e#4151#4152#0" expanded="true" />
-                <element signature="e#4183#4184#0" expanded="true" />
-                <element signature="e#4235#4236#0" expanded="true" />
-                <element signature="e#4274#4275#0" expanded="true" />
-                <element signature="e#4329#4330#0" expanded="true" />
-                <element signature="e#4369#4370#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Const.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/Const.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-199">
-              <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -298,11 +121,56 @@
       <file leaf-file-name="NettyClientHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/NettyClientHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1628">
-              <caret line="76" column="8" lean-forward="false" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
+            <state relative-caret-position="132">
+              <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleChannelInboundHandler.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/5.0.0.Alpha2/8d6e2c34232e6aa80c7dc966c3e99e522bdbba05/netty-all-5.0.0.Alpha2-sources.jar!/io/netty/channel/SimpleChannelInboundHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="47" column="22" lean-forward="false" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NettyClientInitializer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/NettyClientInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+              <folding>
+                <element signature="e#625#626#0" expanded="true" />
+                <element signature="e#665#666#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NettyListener.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/NettyListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Const.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/Const.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="28">
+              <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -2662,15 +2530,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Serverlib/build.gradle" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/beans/BaseMagBean.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/INettyClient.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/SimpleChatServerInitializer.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/SimpleChatServerHandler.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/NettyClientInitializer.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/NettyListener.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/NettyClientHandler.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/beans/MassageBean.java" />
@@ -2679,9 +2544,14 @@
         <option value="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/BaseApplication.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/Const.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/Serverlib/src/main/java/lzhs/com/serverlib/BaseMagBean.java" />
+        <option value="$PROJECT_DIR$/Serverlib/build.gradle" />
+        <option value="$PROJECT_DIR$/Serverlib/src/main/java/lzhs/com/serverlib/TimeServerHandler.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/NettyClientInitializer.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/NettyClient.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/NettyService.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/NettyService.java" />
       </list>
     </option>
   </component>
@@ -2706,6 +2576,36 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="NettyDemo" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="NettyDemo" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Serverlib" type="e9137016:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="NettyDemo" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Serverlib" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="NettyDemo" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Serverlib" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="serverlib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NettyDemo" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -2819,57 +2719,31 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="NettyDemo" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="NettyDemo" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Serverlib" type="e9137016:NonAndroidModuleNode" />
-            </path>
-            <path>
-              <item name="NettyDemo" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Serverlib" type="e9137016:NonAndroidModuleNode" />
-              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="NettyDemo" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Serverlib" type="e9137016:NonAndroidModuleNode" />
-              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
-              <item name="serverlib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NettyDemo" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="android.project.structure.last.selected" value="app" />
+    <property name="android.project.structure.last.selected" value="Serverlib" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="device.picker.selection" value="6TQGINUSWCQS9LYP" />
     <property name="DEBUGGABLE_DEVICE" value="lenovo-lenovo_k50_t3s-6TQGINUSWCQS9LYP" />
     <property name="DEBUGGABLE_PROCESS" value="lzhs.com.nettydemo" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="DEBUGGER_ID" value="Auto" />
+    <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="lzhs.com.nettydemo.netty.client" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Serverlib/src/main/java/lzhs/com/serverlib" />
       <recent name="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lzhs.com.serverlib" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="lzhs.com.nettydemo.netty.client" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -3062,6 +2936,18 @@
       <module name="NettyDemo" />
       <envs />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="NettyDemo" />
+      <envs />
+    </configuration>
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
@@ -3089,6 +2975,14 @@
       <option name="presentableId" value="Default" />
       <updated>1524282933109</updated>
     </task>
+    <task id="LOCAL-00001" summary="添加Netty 网络请求">
+      <created>1524294486367</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1524294486367</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -3102,7 +2996,7 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3134172" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -3113,14 +3007,14 @@
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3134172" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39937106" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39937106" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="773" y="417" width="134" height="216" />
+      <window_info id="Palette " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="349" y="271" width="134" height="216" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -3135,19 +3029,128 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/../.." />
     </ignored-roots>
+    <MESSAGE value="添加Netty 网络请求" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加Netty 网络请求" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/NettyService.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Serverlib/src/main/java/lzhs/com/serverlib/TimeServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="58" column="79" lean-forward="false" selection-start-line="58" selection-start-column="79" selection-end-line="58" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Serverlib/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Serverlib/src/main/java/lzhs/com/serverlib/BaseMagBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/NettyClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="24" column="5" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/NettyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
+          <caret line="100" column="19" lean-forward="false" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="19" />
+          <folding>
+            <element signature="e#3126#3127#0" expanded="true" />
+            <element signature="e#3174#3175#0" expanded="true" />
+            <element signature="e#3353#3354#0" expanded="true" />
+            <element signature="e#3385#3386#0" expanded="true" />
+            <element signature="e#3437#3438#0" expanded="true" />
+            <element signature="e#3476#3477#0" expanded="true" />
+            <element signature="e#3531#3532#0" expanded="true" />
+            <element signature="e#3571#3572#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/NettyClientInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+          <folding>
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/NettyListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/NettyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1606">
+          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#NettyService#0" expanded="false" />
+            <element signature="method#onCreate#0;class#NettyService#0" expanded="false" />
+            <element signature="method#onStartCommand#0;class#NettyService#0" expanded="false" />
+            <element signature="method#onDestroy#0;class#NettyService#0" expanded="false" />
+            <element signature="e#2875#3304#0" expanded="true" />
+            <element signature="e#3303#3304#0" expanded="true" />
+            <element signature="docComment;method#onServiceStatusConnectChanged#0;class#NettyService#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1672">
           <caret line="99" column="26" lean-forward="false" selection-start-line="99" selection-start-column="26" selection-end-line="99" selection-end-column="26" />
-          <folding />
+          <folding>
+            <element signature="class#977:1507" expanded="false" />
+            <element signature="method#createBean#0;class#MainActivity#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3187,68 +3190,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <element signature="e#729#730#0" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
-            <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#948#949#0" expanded="true" />
-            <element signature="e#984#985#0" expanded="true" />
-            <element signature="e#1023#1024#0" expanded="true" />
-            <element signature="e#1053#1054#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-            <element signature="e#1142#1143#0" expanded="true" />
-            <element signature="e#1176#1177#0" expanded="true" />
-            <element signature="e#1206#1207#0" expanded="true" />
-            <element signature="e#1253#1254#0" expanded="true" />
-            <element signature="e#1291#1292#0" expanded="true" />
-            <element signature="e#1325#1326#0" expanded="true" />
-            <element signature="e#1355#1356#0" expanded="true" />
-            <element signature="e#1401#1402#0" expanded="true" />
-            <element signature="e#1439#1440#0" expanded="true" />
-            <element signature="e#1490#1491#0" expanded="true" />
-            <element signature="e#1523#1524#0" expanded="true" />
-            <element signature="e#1589#1590#0" expanded="true" />
-            <element signature="e#1633#1634#0" expanded="true" />
-            <element signature="e#1913#1914#0" expanded="true" />
-            <element signature="e#1952#1953#0" expanded="true" />
-            <element signature="e#2004#2005#0" expanded="true" />
-            <element signature="e#2052#2053#0" expanded="true" />
-            <element signature="e#2089#2090#0" expanded="true" />
-            <element signature="e#2126#2127#0" expanded="true" />
-            <element signature="e#2174#2175#0" expanded="true" />
-            <element signature="e#2218#2219#0" expanded="true" />
-            <element signature="e#2252#2253#0" expanded="true" />
-            <element signature="e#2286#2287#0" expanded="true" />
-            <element signature="e#2328#2329#0" expanded="true" />
-            <element signature="e#2366#2367#0" expanded="true" />
-            <element signature="e#2664#2665#0" expanded="true" />
-            <element signature="e#2702#2703#0" expanded="true" />
-            <element signature="e#2753#2754#0" expanded="true" />
-            <element signature="e#2799#2800#0" expanded="true" />
-            <element signature="e#2837#2838#0" expanded="true" />
-            <element signature="e#2875#2876#0" expanded="true" />
-            <element signature="e#2925#2926#0" expanded="true" />
-            <element signature="e#2971#2972#0" expanded="true" />
-            <element signature="e#3014#3015#0" expanded="true" />
-            <element signature="e#3057#3058#0" expanded="true" />
-            <element signature="e#3117#3118#0" expanded="true" />
-            <element signature="e#3173#3174#0" expanded="true" />
-            <element signature="e#3469#3470#0" expanded="true" />
-            <element signature="e#3508#3509#0" expanded="true" />
-            <element signature="e#3560#3561#0" expanded="true" />
-            <element signature="e#3608#3609#0" expanded="true" />
-            <element signature="e#3645#3646#0" expanded="true" />
-            <element signature="e#3682#3683#0" expanded="true" />
-            <element signature="e#3730#3731#0" expanded="true" />
-            <element signature="e#3774#3775#0" expanded="true" />
-            <element signature="e#3808#3809#0" expanded="true" />
-            <element signature="e#3842#3843#0" expanded="true" />
-            <element signature="e#3884#3885#0" expanded="true" />
-            <element signature="e#3922#3923#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3266,6 +3208,8 @@
           <caret line="76" column="8" lean-forward="false" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3275,9 +3219,13 @@
         <state relative-caret-position="1210">
           <caret line="55" column="26" lean-forward="false" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2432#2861#0" expanded="true" />
-            <element signature="e#2860#2861#0" expanded="true" />
+            <element signature="docComment;class#NettyService#0" expanded="false" />
+            <element signature="method#onCreate#0;class#NettyService#0" expanded="false" />
+            <element signature="method#onStartCommand#0;class#NettyService#0" expanded="false" />
+            <element signature="method#onDestroy#0;class#NettyService#0" expanded="false" />
+            <element signature="e#2875#3304#0" expanded="true" />
+            <element signature="e#3303#3304#0" expanded="true" />
+            <element signature="docComment;method#onServiceStatusConnectChanged#0;class#NettyService#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3286,7 +3234,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="902">
           <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="class#977:1507" expanded="false" />
+            <element signature="method#createBean#0;class#MainActivity#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3302,68 +3253,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <element signature="e#729#730#0" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
-            <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#948#949#0" expanded="true" />
-            <element signature="e#984#985#0" expanded="true" />
-            <element signature="e#1023#1024#0" expanded="true" />
-            <element signature="e#1053#1054#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-            <element signature="e#1142#1143#0" expanded="true" />
-            <element signature="e#1176#1177#0" expanded="true" />
-            <element signature="e#1206#1207#0" expanded="true" />
-            <element signature="e#1253#1254#0" expanded="true" />
-            <element signature="e#1291#1292#0" expanded="true" />
-            <element signature="e#1325#1326#0" expanded="true" />
-            <element signature="e#1355#1356#0" expanded="true" />
-            <element signature="e#1401#1402#0" expanded="true" />
-            <element signature="e#1439#1440#0" expanded="true" />
-            <element signature="e#1490#1491#0" expanded="true" />
-            <element signature="e#1523#1524#0" expanded="true" />
-            <element signature="e#1589#1590#0" expanded="true" />
-            <element signature="e#1633#1634#0" expanded="true" />
-            <element signature="e#1913#1914#0" expanded="true" />
-            <element signature="e#1952#1953#0" expanded="true" />
-            <element signature="e#2004#2005#0" expanded="true" />
-            <element signature="e#2052#2053#0" expanded="true" />
-            <element signature="e#2089#2090#0" expanded="true" />
-            <element signature="e#2126#2127#0" expanded="true" />
-            <element signature="e#2174#2175#0" expanded="true" />
-            <element signature="e#2218#2219#0" expanded="true" />
-            <element signature="e#2252#2253#0" expanded="true" />
-            <element signature="e#2286#2287#0" expanded="true" />
-            <element signature="e#2328#2329#0" expanded="true" />
-            <element signature="e#2366#2367#0" expanded="true" />
-            <element signature="e#2664#2665#0" expanded="true" />
-            <element signature="e#2702#2703#0" expanded="true" />
-            <element signature="e#2753#2754#0" expanded="true" />
-            <element signature="e#2799#2800#0" expanded="true" />
-            <element signature="e#2837#2838#0" expanded="true" />
-            <element signature="e#2875#2876#0" expanded="true" />
-            <element signature="e#2925#2926#0" expanded="true" />
-            <element signature="e#2971#2972#0" expanded="true" />
-            <element signature="e#3014#3015#0" expanded="true" />
-            <element signature="e#3057#3058#0" expanded="true" />
-            <element signature="e#3117#3118#0" expanded="true" />
-            <element signature="e#3173#3174#0" expanded="true" />
-            <element signature="e#3469#3470#0" expanded="true" />
-            <element signature="e#3508#3509#0" expanded="true" />
-            <element signature="e#3560#3561#0" expanded="true" />
-            <element signature="e#3608#3609#0" expanded="true" />
-            <element signature="e#3645#3646#0" expanded="true" />
-            <element signature="e#3682#3683#0" expanded="true" />
-            <element signature="e#3730#3731#0" expanded="true" />
-            <element signature="e#3774#3775#0" expanded="true" />
-            <element signature="e#3808#3809#0" expanded="true" />
-            <element signature="e#3842#3843#0" expanded="true" />
-            <element signature="e#3884#3885#0" expanded="true" />
-            <element signature="e#3922#3923#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3380,9 +3270,13 @@
         <state relative-caret-position="2310">
           <caret line="107" column="9" lean-forward="false" selection-start-line="85" selection-start-column="7" selection-end-line="107" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2432#2861#0" expanded="true" />
-            <element signature="e#2860#2861#0" expanded="true" />
+            <element signature="docComment;class#NettyService#0" expanded="false" />
+            <element signature="method#onCreate#0;class#NettyService#0" expanded="false" />
+            <element signature="method#onStartCommand#0;class#NettyService#0" expanded="false" />
+            <element signature="method#onDestroy#0;class#NettyService#0" expanded="false" />
+            <element signature="e#2875#3304#0" expanded="true" />
+            <element signature="e#3303#3304#0" expanded="true" />
+            <element signature="docComment;method#onServiceStatusConnectChanged#0;class#NettyService#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3393,6 +3287,8 @@
           <caret line="76" column="8" lean-forward="false" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3405,14 +3301,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Serverlib/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="10" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -3420,147 +3308,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/INettyClient.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/SimpleChatServerHandler.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/SimpleChatServerInitializer.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/NettyClientInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/NettyListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/5.0.0.Alpha2/8d6e2c34232e6aa80c7dc966c3e99e522bdbba05/netty-all-5.0.0.Alpha2-sources.jar!/io/netty/buffer/ByteBuf.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="278" column="27" lean-forward="false" selection-start-line="278" selection-start-column="20" selection-end-line="278" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/beans/MessageEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="37" column="1" lean-forward="false" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-          <folding>
-            <element signature="e#220#221#0" expanded="false" />
-            <element signature="e#247#248#0" expanded="false" />
-            <element signature="e#284#285#0" expanded="false" />
-            <element signature="e#316#317#0" expanded="false" />
-            <element signature="e#346#347#0" expanded="false" />
-            <element signature="e#372#373#0" expanded="false" />
-            <element signature="e#410#411#0" expanded="false" />
-            <element signature="e#440#441#0" expanded="false" />
-            <element signature="e#471#472#0" expanded="false" />
-            <element signature="e#498#499#0" expanded="false" />
-            <element signature="e#533#534#0" expanded="false" />
-            <element signature="e#565#566#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/beans/BaseMagBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <element signature="e#729#730#0" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
-            <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#948#949#0" expanded="true" />
-            <element signature="e#984#985#0" expanded="true" />
-            <element signature="e#1023#1024#0" expanded="true" />
-            <element signature="e#1053#1054#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-            <element signature="e#1142#1143#0" expanded="true" />
-            <element signature="e#1176#1177#0" expanded="true" />
-            <element signature="e#1206#1207#0" expanded="true" />
-            <element signature="e#1253#1254#0" expanded="true" />
-            <element signature="e#1291#1292#0" expanded="true" />
-            <element signature="e#1325#1326#0" expanded="true" />
-            <element signature="e#1355#1356#0" expanded="true" />
-            <element signature="e#1401#1402#0" expanded="true" />
-            <element signature="e#1439#1440#0" expanded="true" />
-            <element signature="e#1490#1491#0" expanded="true" />
-            <element signature="e#1523#1524#0" expanded="true" />
-            <element signature="e#1589#1590#0" expanded="true" />
-            <element signature="e#1633#1634#0" expanded="true" />
-            <element signature="e#1913#1914#0" expanded="true" />
-            <element signature="e#1952#1953#0" expanded="true" />
-            <element signature="e#2004#2005#0" expanded="true" />
-            <element signature="e#2052#2053#0" expanded="true" />
-            <element signature="e#2089#2090#0" expanded="true" />
-            <element signature="e#2126#2127#0" expanded="true" />
-            <element signature="e#2174#2175#0" expanded="true" />
-            <element signature="e#2218#2219#0" expanded="true" />
-            <element signature="e#2252#2253#0" expanded="true" />
-            <element signature="e#2286#2287#0" expanded="true" />
-            <element signature="e#2328#2329#0" expanded="true" />
-            <element signature="e#2366#2367#0" expanded="true" />
-            <element signature="e#2664#2665#0" expanded="true" />
-            <element signature="e#2702#2703#0" expanded="true" />
-            <element signature="e#2753#2754#0" expanded="true" />
-            <element signature="e#2799#2800#0" expanded="true" />
-            <element signature="e#2837#2838#0" expanded="true" />
-            <element signature="e#2875#2876#0" expanded="true" />
-            <element signature="e#2925#2926#0" expanded="true" />
-            <element signature="e#2971#2972#0" expanded="true" />
-            <element signature="e#3014#3015#0" expanded="true" />
-            <element signature="e#3057#3058#0" expanded="true" />
-            <element signature="e#3117#3118#0" expanded="true" />
-            <element signature="e#3173#3174#0" expanded="true" />
-            <element signature="e#3469#3470#0" expanded="true" />
-            <element signature="e#3508#3509#0" expanded="true" />
-            <element signature="e#3560#3561#0" expanded="true" />
-            <element signature="e#3608#3609#0" expanded="true" />
-            <element signature="e#3645#3646#0" expanded="true" />
-            <element signature="e#3682#3683#0" expanded="true" />
-            <element signature="e#3730#3731#0" expanded="true" />
-            <element signature="e#3774#3775#0" expanded="true" />
-            <element signature="e#3808#3809#0" expanded="true" />
-            <element signature="e#3842#3843#0" expanded="true" />
-            <element signature="e#3884#3885#0" expanded="true" />
-            <element signature="e#3922#3923#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Serverlib/src/main/java/lzhs/com/serverlib/TimeServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -3577,23 +3331,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="27" column="53" lean-forward="false" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/5.0.0.Alpha2/8d6e2c34232e6aa80c7dc966c3e99e522bdbba05/netty-all-5.0.0.Alpha2-sources.jar!/io/netty/channel/SimpleChannelInboundHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="47" column="71" lean-forward="false" selection-start-line="47" selection-start-column="71" selection-end-line="47" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/NettyClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1628">
-          <caret line="76" column="8" lean-forward="false" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3624,49 +3362,163 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/Const.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-199">
-          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        <state relative-caret-position="125">
+          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/NettyClient.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/fastjson/1.2.47/80217385515cb624ad9d1e7b47162b5ecff0c040/fastjson-1.2.47-sources.jar!/com/alibaba/fastjson/JSON.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="100" column="69" lean-forward="false" selection-start-line="100" selection-start-column="19" selection-end-line="100" selection-end-column="69" />
+        <state relative-caret-position="210">
+          <caret line="574" column="25" lean-forward="false" selection-start-line="574" selection-start-column="25" selection-end-line="574" selection-end-column="25" />
           <folding>
-            <element signature="e#3152#3854#0" expanded="true" />
-            <element signature="e#3853#3854#0" expanded="true" />
-            <element signature="e#3924#3925#0" expanded="true" />
-            <element signature="e#3972#3973#0" expanded="true" />
-            <element signature="e#4151#4152#0" expanded="true" />
-            <element signature="e#4183#4184#0" expanded="true" />
-            <element signature="e#4235#4236#0" expanded="true" />
-            <element signature="e#4274#4275#0" expanded="true" />
-            <element signature="e#4329#4330#0" expanded="true" />
-            <element signature="e#4369#4370#0" expanded="true" />
+            <element signature="e#20721#20722#0" expanded="false" />
+            <element signature="e#20778#20779#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Serverlib/src/main/java/lzhs/com/serverlib/BaseMagBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Serverlib/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Serverlib/src/main/java/lzhs/com/serverlib/TimeServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="60" column="68" lean-forward="false" selection-start-line="60" selection-start-column="68" selection-end-line="60" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/beans/BaseMagBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/beans/MessageEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="70" column="42" lean-forward="true" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
+          <folding>
+            <element signature="class#977:1507" expanded="false" />
+            <element signature="method#createBean#0;class#MainActivity#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/NettyService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="81" column="53" lean-forward="false" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="53" />
+        <state relative-caret-position="316">
+          <caret line="87" column="17" lean-forward="true" selection-start-line="77" selection-start-column="8" selection-end-line="87" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2432#2861#0" expanded="true" />
-            <element signature="e#2860#2861#0" expanded="true" />
+            <element signature="docComment;class#NettyService#0" expanded="false" />
+            <element signature="method#onCreate#0;class#NettyService#0" expanded="false" />
+            <element signature="method#onStartCommand#0;class#NettyService#0" expanded="false" />
+            <element signature="method#onDestroy#0;class#NettyService#0" expanded="false" />
+            <element signature="e#2875#3304#0" expanded="true" />
+            <element signature="e#3303#3304#0" expanded="true" />
+            <element signature="docComment;method#onServiceStatusConnectChanged#0;class#NettyService#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/MainActivity.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/5.0.0.Alpha2/8d6e2c34232e6aa80c7dc966c3e99e522bdbba05/netty-all-5.0.0.Alpha2-sources.jar!/io/netty/channel/SimpleChannelInboundHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="90" column="32" lean-forward="false" selection-start-line="90" selection-start-column="32" selection-end-line="90" selection-end-column="32" />
+        <state relative-caret-position="309">
+          <caret line="47" column="22" lean-forward="false" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/NettyClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/NettyClientInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/NettyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="54" column="33" lean-forward="false" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+          <folding>
+            <element signature="e#3126#3127#0" expanded="true" />
+            <element signature="e#3174#3175#0" expanded="true" />
+            <element signature="e#3353#3354#0" expanded="true" />
+            <element signature="e#3385#3386#0" expanded="true" />
+            <element signature="e#3437#3438#0" expanded="true" />
+            <element signature="e#3476#3477#0" expanded="true" />
+            <element signature="e#3531#3532#0" expanded="true" />
+            <element signature="e#3571#3572#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/NettyListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/Const.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
           <folding />
         </state>
       </provider>

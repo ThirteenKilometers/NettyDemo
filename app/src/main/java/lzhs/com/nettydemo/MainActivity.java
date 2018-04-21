@@ -6,9 +6,11 @@ import android.content.Intent;
 import android.content.ServiceConnection;
 import android.os.Bundle;
 import android.os.IBinder;
+import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.alibaba.fastjson.JSONObject;
@@ -47,6 +49,9 @@ public class MainActivity extends AppCompatActivity {
         }
     };
 
+
+    TextView mTextShow;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -54,9 +59,21 @@ public class MainActivity extends AppCompatActivity {
         EventBus.getDefault().register(this);
         Intent mIntent = new Intent(this, NettyService.class);
         bindService(mIntent, connection, Service.BIND_AUTO_CREATE);
+        mTextShow = findViewById(R.id.mTextShow);
     }
 
     public void sendMessage(View v) {
+        MessageEvent event = new MessageEvent<String>();
+        event.setCode(Const.SEND_CODE);
+        event.setMsg("正在向服务器发送消息");
+        event.setData(JSONObject.toJSONString(createBean()));
+
+        EventBus.getDefault().post(event);
+
+    }
+
+    @NonNull
+    private BaseMagBean createBean() {
         BaseMagBean bean = new BaseMagBean();
 
         bean.setMethod("login");
@@ -84,15 +101,7 @@ public class MainActivity extends AppCompatActivity {
         contentBean.setSuccess(false);
         contentBean.setNotification("RESPONES");
         bean.setContent(contentBean);
-
-
-        MessageEvent event = new MessageEvent<String>();
-        event.setCode(Const.SEND_CODE);
-        event.setMsg("正在向服务器发送消息");
-        event.setData(JSONObject.toJSONString(bean));
-
-        EventBus.getDefault().post(event);
-
+        return bean;
     }
 
     @Override
@@ -104,6 +113,23 @@ public class MainActivity extends AppCompatActivity {
 
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onMessageEvent(MessageEvent event) {
+        switch (event.getCode()) {
+            case Const.ACCEPT_CODE:
+                setText((String) event.getData());
+                break;
+        }
         Toast.makeText(this, event.getMsg(), Toast.LENGTH_LONG).show();
+    }
+
+    public void setText(String text) {
+
+
+
+
+
+
+        StringBuffer stringBuffer = new StringBuffer(mTextShow.getText());
+        stringBuffer.append(text + "\n\r");
+        mTextShow.setText(stringBuffer.toString());
     }
 }
