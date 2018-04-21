@@ -63,8 +63,7 @@ public class BaseApplication extends Application {
 
     @NonNull
     private Intent getIntent() {
-        Intent mIntent = new Intent(NettyService.class.getName());
-        return mIntent;
+        return new Intent(this,NettyService.class);
     }
 
 

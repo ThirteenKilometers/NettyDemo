@@ -1,5 +1,6 @@
 package lzhs.com.nettydemo.beans;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
@@ -8,7 +9,7 @@ import java.util.List;
  * 时间： 2018/4/21 12:51<br/>
  * 邮箱：1050629507@qq.com
  */
-public class BaseMagBean {
+public class BaseMagBean<T> implements Serializable {
 
     /**
      * sender : {"userCode":"INTERFACE","client":"INTERFACE","ict":"SOCKET"}
@@ -21,7 +22,7 @@ public class BaseMagBean {
 
     private SenderBean sender;
     private String method;
-    private ContentBean content;
+    private String content;
     private boolean success;
     private String message;
     private List<RecipientsBean> recipients;
@@ -42,11 +43,11 @@ public class BaseMagBean {
         this.method = method;
     }
 
-    public ContentBean getContent() {
+    public String getContent() {
         return content;
     }
 
-    public void setContent(ContentBean content) {
+    public void setContent(String content) {
         this.content = content;
     }
 
@@ -107,42 +108,6 @@ public class BaseMagBean {
 
         public void setIct(String ict) {
             this.ict = ict;
-        }
-    }
-
-    public static class ContentBean {
-        /**
-         * success : false
-         * message : 密码错误
-         * notification : RESPONES
-         */
-
-        private boolean success;
-        private String message;
-        private String notification;
-
-        public boolean isSuccess() {
-            return success;
-        }
-
-        public void setSuccess(boolean success) {
-            this.success = success;
-        }
-
-        public String getMessage() {
-            return message;
-        }
-
-        public void setMessage(String message) {
-            this.message = message;
-        }
-
-        public String getNotification() {
-            return notification;
-        }
-
-        public void setNotification(String notification) {
-            this.notification = notification;
         }
     }
 

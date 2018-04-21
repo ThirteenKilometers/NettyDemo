@@ -43,6 +43,14 @@ public final class Const {
      * 客户端向服务器发送消息失败状态码
      */
     public final static int SEND_FALIE_CODE = 0x1;
+/**
+     *
+     */
+    public final static String METHER_LOGIN = "login";
+/**
+     *
+     */
+    public final static int METHER_LOGIN_CODE = 0x121;
 
 
 }

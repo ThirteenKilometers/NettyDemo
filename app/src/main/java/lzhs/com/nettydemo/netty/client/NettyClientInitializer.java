@@ -5,8 +5,6 @@ import io.netty.channel.ChannelPipeline;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
-import io.netty.handler.ssl.SslContext;
-import io.netty.handler.ssl.util.InsecureTrustManagerFactory;
 
 public class NettyClientInitializer extends ChannelInitializer<SocketChannel> {
 
@@ -29,6 +27,10 @@ public class NettyClientInitializer extends ChannelInitializer<SocketChannel> {
 //        pipeline.addLast(sslCtx.newHandler(ch.alloc()));    // 开启SSL
         pipeline.addLast(new LoggingHandler(LogLevel.INFO));    // 开启日志，可以设置日志等级
 //        pipeline.addLast(new IdleStateHandler(30, 60, 100));
+//        pipeline.addLast("encoder", new StringEncoder(CharsetUtil.UTF_8));
+//        pipeline.addLast("dncoder", new StringDecoder(CharsetUtil.UTF_8));
+//        pipeline.addLast(new LineBasedFrameDecoder(Integer.MAX_VALUE));
         pipeline.addLast(new NettyClientHandler(listener));
+
     }
 }

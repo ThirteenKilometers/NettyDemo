@@ -96,7 +96,7 @@ public class TimeServerHandler extends ChannelHandlerAdapter {
     private byte[] createData() {
         BaseMagBean bean = new BaseMagBean();
 
-        bean.setMethod("来自服务器消息");
+        bean.setMethod("login");
         bean.setMessage("欢欢，我爱你");
         bean.setSuccess(true);
 

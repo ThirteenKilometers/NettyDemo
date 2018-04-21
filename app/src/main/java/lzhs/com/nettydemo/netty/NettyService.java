@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.IBinder;
 import android.util.Log;
 
+import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 
 import org.greenrobot.eventbus.EventBus;
@@ -81,8 +82,16 @@ public class NettyService extends Service implements NettyListener {
             byte[] req = new byte[byteBuf.readableBytes()];
             byteBuf.readBytes(req);
             String body = new String(req, "UTF-8");
+            JSONObject jsonObject= JSON.parseObject(body);
+            switch (jsonObject.getString("method")) {
+                case Const.METHER_LOGIN:
+                    msg.setCode(Const.METHER_LOGIN_CODE);
+                    break;
+                default:
+                    msg.setCode(Const.ACCEPT_CODE);
+                    break;
+            }
             msg.setData(body);
-            msg.setCode(Const.ACCEPT_CODE);
             EventBus.getDefault().post(msg);
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
@@ -94,15 +103,15 @@ public class NettyService extends Service implements NettyListener {
         if (event.getCode() == Const.SEND_CODE)
             NettyClient.getInstance().sendMsgToServer(((String) event.getData()).getBytes()
                     , new ChannelFutureListener() {
-                @Override
-                public void operationComplete(ChannelFuture future) throws Exception {
-                    if (future.isSuccess()) {
-                        onServiceStatusConnectChanged(Const.SEND_SUCCESS_CODE);
-                    } else {
-                        onServiceStatusConnectChanged(Const.SEND_FALIE_CODE);
-                    }
-                }
-            });
+                        @Override
+                        public void operationComplete(ChannelFuture future) throws Exception {
+                            if (future.isSuccess()) {
+                                onServiceStatusConnectChanged(Const.SEND_SUCCESS_CODE);
+                            } else {
+                                onServiceStatusConnectChanged(Const.SEND_FALIE_CODE);
+                            }
+                        }
+                    });
     }
 
     /**
