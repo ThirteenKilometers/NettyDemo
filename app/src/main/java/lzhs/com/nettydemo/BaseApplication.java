@@ -6,7 +6,6 @@ import android.app.Application;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Configuration;
-import android.support.annotation.NonNull;
 import android.text.TextUtils;
 import android.util.Log;
 
@@ -24,11 +23,18 @@ import lzhs.com.nettydemo.netty.NettyService;
 public class BaseApplication extends Application {
     public static final String TAG = "BaseApplication";
 
+    public static  BaseApplication mInstance=null;
+
+    public static BaseApplication getInstance() {
+        return mInstance;
+    }
+
     @Override
     public void onCreate() {
         // 程序创建的时候执行
         Log.d(TAG, "onCreate");
         super.onCreate();
+        mInstance=this;
         if (!isServiceRunning(this, NettyService.class.getName()))
             startService(getIntent());
     }
@@ -61,7 +67,6 @@ public class BaseApplication extends Application {
         super.onConfigurationChanged(newConfig);
     }
 
-    @NonNull
     private Intent getIntent() {
         return new Intent(this,NettyService.class);
     }

@@ -10,7 +10,7 @@ public final class Const {
     /**
      * 服务器连接地址
      */
-    public static final String HOST = "192.168.1.103";
+    public static final String HOST = "192.168.1.112";
     /**
      * 服务器连接端口
      */
@@ -43,14 +43,22 @@ public final class Const {
      * 客户端向服务器发送消息失败状态码
      */
     public final static int SEND_FALIE_CODE = 0x1;
-/**
-     *
+    /**
+     * 登录接口
      */
     public final static String METHER_LOGIN = "login";
-/**
-     *
+    /**
+     * 登录接口 code
      */
-    public final static int METHER_LOGIN_CODE = 0x121;
+    public final static int METHER_LOGIN_CODE = 0xa001;
+    /**
+     * 设备信息上传接口
+     */
+    public final static String METHER_UPLOAD_DEVICE_INFO = "uploadDeviceInfo";
+    /**
+     * 设备信息上传接口 code
+     */
+    public final static int METHER_UPLOAD_DEVICE_INFO_CODE = 0xa002;
 
 
 }

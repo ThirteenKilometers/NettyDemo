@@ -36,6 +36,13 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:text="获取登录接口数据" />
+
+            <Button
+                android:id="@+id/mBtnUploadDeviceInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="设备信息上传接口" />
         </LinearLayout>
     </ScrollView>
 

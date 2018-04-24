@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/NettyDemo.iml" filepath="$PROJECT_DIR$/NettyDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Serverlib/Serverlib.iml" filepath="$PROJECT_DIR$/Serverlib/Serverlib.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testapplication/testapplication.iml" filepath="$PROJECT_DIR$/testapplication/testapplication.iml" />
     </modules>
   </component>
 </project>

@@ -3,8 +3,11 @@ package lzhs.com.nettydemo.netty.client;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
 import io.netty.channel.socket.SocketChannel;
+import io.netty.handler.codec.LineBasedFrameDecoder;
+import io.netty.handler.codec.string.StringEncoder;
 import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
+import io.netty.util.CharsetUtil;
 
 public class NettyClientInitializer extends ChannelInitializer<SocketChannel> {
 
@@ -23,7 +26,12 @@ public class NettyClientInitializer extends ChannelInitializer<SocketChannel> {
 //        SslContext sslCtx = SslContextBuilder.forClient()
 //                .trustManager(InsecureTrustManagerFactory.INSTANCE).build();
 
+
         ChannelPipeline pipeline = ch.pipeline();
+
+        pipeline.addLast("encoder", new StringEncoder(CharsetUtil.UTF_8));
+        pipeline.addLast(new LineBasedFrameDecoder(Integer.MAX_VALUE));
+        //pipeline.addLast(nettyClientHandler);
 //        pipeline.addLast(sslCtx.newHandler(ch.alloc()));    // 开启SSL
         pipeline.addLast(new LoggingHandler(LogLevel.INFO));    // 开启日志，可以设置日志等级
 //        pipeline.addLast(new IdleStateHandler(30, 60, 100));

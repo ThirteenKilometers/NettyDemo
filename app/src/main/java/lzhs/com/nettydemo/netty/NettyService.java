@@ -6,7 +6,6 @@ import android.os.IBinder;
 import android.util.Log;
 
 import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONObject;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
@@ -18,6 +17,7 @@ import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelFutureListener;
 import lzhs.com.nettydemo.beans.MessageEvent;
+import lzhs.com.nettydemo.beans.accept_bean.base.BaseAcceptMsgBean;
 import lzhs.com.nettydemo.netty.client.Const;
 import lzhs.com.nettydemo.netty.client.NettyClient;
 import lzhs.com.nettydemo.netty.client.NettyListener;
@@ -74,32 +74,47 @@ public class NettyService extends Service implements NettyListener {
         }
     }
 
+    /**
+     * 接收服务器消息
+     * @param byteBuf
+     */
     @Override
     public void onMessageResponse(ByteBuf byteBuf) {
         try {
             MessageEvent msg = new MessageEvent();
-            msg.setMsg("来自服务器消息");
             byte[] req = new byte[byteBuf.readableBytes()];
             byteBuf.readBytes(req);
             String body = new String(req, "UTF-8");
-            JSONObject jsonObject= JSON.parseObject(body);
-            switch (jsonObject.getString("method")) {
-                case Const.METHER_LOGIN:
-                    msg.setCode(Const.METHER_LOGIN_CODE);
-                    break;
-                default:
-                    msg.setCode(Const.ACCEPT_CODE);
-                    break;
+            BaseAcceptMsgBean acceptBean = JSON.parseObject(body, BaseAcceptMsgBean.class);
+            if (acceptBean.isSuccess()) {
+                msg.setMsg("来自服务器消息,本次请求成功");
+                switch (acceptBean.getMethod()) {
+                    case Const.METHER_LOGIN://登录接口：method=”login”
+                        msg.setCode(Const.METHER_LOGIN_CODE);
+                        break;
+                    case Const.METHER_UPLOAD_DEVICE_INFO://设备信息上传接口：method=”uploadDeviceInfo”
+                        msg.setCode(Const.METHER_UPLOAD_DEVICE_INFO_CODE);
+                        break;
+                }
+
+                msg.setData(acceptBean.getContent());
+            } else {
+                msg.setMsg("来自服务器消息,服务器认为这个次请求失败，失败原因：" + acceptBean.getMessage());
+                msg.setCode(Const.ACCEPT_CODE);
+                msg.setData(body);
             }
-            msg.setData(body);
             EventBus.getDefault().post(msg);
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }
     }
 
+    /**
+     * 向服务器发送消息
+     * @param event
+     */
     @Subscribe(threadMode = ThreadMode.MAIN)
-    public void onMessageEvent(MessageEvent event) {/* Do something */
+    public void sendMsgToService(MessageEvent event) {/* Do something */
         if (event.getCode() == Const.SEND_CODE)
             NettyClient.getInstance().sendMsgToServer(((String) event.getData()).getBytes()
                     , new ChannelFutureListener() {
