@@ -96,7 +96,6 @@ public class NettyService extends Service implements NettyListener {
                         msg.setCode(Const.METHER_UPLOAD_DEVICE_INFO_CODE);
                         break;
                 }
-
                 msg.setData(acceptBean.getContent());
             } else {
                 msg.setMsg("来自服务器消息,服务器认为这个次请求失败，失败原因：" + acceptBean.getMessage());

@@ -11,34 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c2c51e8-013e-411c-ae6e-ee3dcd675163" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Serverlib/src/main/java/lzhs/com/serverlib/socket_demo/Client.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Serverlib/src/main/java/lzhs/com/serverlib/socket_demo/ServerDemo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/beans/accept_bean/AcceptLoginBean.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/beans/accept_bean/AcceptUploadDeviceInfBean.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/beans/accept_bean/base/BaseAcceptMsgBean.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/beans/send_bean/SendLoginBean.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/beans/send_bean/SendUploadDeviceInfoBean.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/beans/send_bean/base/BaseUserBean.java" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/BaseApplication.java" afterPath="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/BaseApplication.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/MainActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/beans/BaseMagBean.java" afterPath="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/beans/send_bean/base/BaseSendMsgBean.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/NettyService.java" afterPath="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/NettyService.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/Const.java" afterPath="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/Const.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/NettyClientInitializer.java" afterPath="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/NettyClientInitializer.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -88,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SendLoginBean.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SendLoginBean.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/beans/send_bean/SendLoginBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="207">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
                 <element signature="e#346#347#0" expanded="true" />
                 <element signature="e#381#382#0" expanded="true" />
@@ -125,19 +99,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NettyService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NettyService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/NettyService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="90" column="49" lean-forward="true" selection-start-line="90" selection-start-column="49" selection-end-line="90" selection-end-column="49" />
+            <state relative-caret-position="347">
+              <caret line="97" column="17" lean-forward="false" selection-start-line="97" selection-start-column="17" selection-end-line="97" selection-end-column="17" />
               <folding>
                 <element signature="docComment;class#NettyService#0" expanded="false" />
                 <element signature="method#onCreate#0;class#NettyService#0" expanded="false" />
                 <element signature="method#onStartCommand#0;class#NettyService#0" expanded="false" />
                 <element signature="method#onBind#0;class#NettyService#0" expanded="false" />
                 <element signature="method#connect#0;class#NettyService#0" expanded="false" />
-                <element signature="e#3798#4299#0" expanded="true" />
-                <element signature="e#4298#4299#0" expanded="true" />
+                <element signature="e#3797#4298#0" expanded="true" />
+                <element signature="e#4297#4298#0" expanded="true" />
                 <element signature="docComment;method#onServiceStatusConnectChanged#0;class#NettyService#0" expanded="false" />
                 <element signature="method#onServiceStatusConnectChanged#0;class#NettyService#0" expanded="false" />
               </folding>
@@ -2837,13 +2811,13 @@
         <option value="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/beans/send_bean/SendLoginBean.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/beans/accept_bean/base/BaseAcceptMsgBean.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/beans/ContentLoginBean.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/NettyService.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/beans/send_bean/base/BaseSendMsgBean.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/Const.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/beans/accept_bean/AcceptLoginBean.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/beans/send_bean/SendUploadDeviceInfoBean.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/beans/accept_bean/AcceptUploadDeviceInfBean.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/NettyService.java" />
       </list>
     </option>
   </component>
@@ -3050,7 +3024,7 @@
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistoryKey" value="activity_main&#9;FILE&#9;file://F:/Projects/NettyDemo/app/src/main/res/layout/activity_main.xml" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1524593265531" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1524593616998" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -3459,11 +3433,19 @@
       <option name="project" value="LOCAL" />
       <updated>1524583900920</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="修改 数据类型">
+      <created>1524593646673</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1524593646673</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -3485,7 +3467,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2148847" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16300367" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16300367" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -3575,7 +3557,8 @@
     <MESSAGE value="添加Netty 网络请求xiu" />
     <MESSAGE value="添加网络接口" />
     <MESSAGE value="添加网络接口01" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加网络接口01" />
+    <MESSAGE value="修改 数据类型" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改 数据类型" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3631,7 +3614,7 @@
             <element signature="e#1998#1999#0" expanded="false" />
             <element signature="e#2080#2081#0" expanded="false" />
             <element signature="method#onMessageResponse#0;class#NettyService#0" expanded="false" />
-            <element signature="method#operationComplete#0;class#3802:4299" expanded="false" />
+            <element signature="method#operationComplete#0;class#3801:4298" expanded="false" />
             <element signature="docComment;method#onServiceStatusConnectChanged#0;class#NettyService#0" expanded="false" />
             <element signature="method#onServiceStatusConnectChanged#0;class#NettyService#0" expanded="false" />
           </folding>
@@ -3693,7 +3676,7 @@
             <element signature="e#1998#1999#0" expanded="false" />
             <element signature="e#2080#2081#0" expanded="false" />
             <element signature="method#onMessageResponse#0;class#NettyService#0" expanded="false" />
-            <element signature="method#operationComplete#0;class#3802:4299" expanded="false" />
+            <element signature="method#operationComplete#0;class#3801:4298" expanded="false" />
             <element signature="docComment;method#onServiceStatusConnectChanged#0;class#NettyService#0" expanded="false" />
             <element signature="method#onServiceStatusConnectChanged#0;class#NettyService#0" expanded="false" />
           </folding>
@@ -4211,24 +4194,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/NettyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="90" column="49" lean-forward="true" selection-start-line="90" selection-start-column="49" selection-end-line="90" selection-end-column="49" />
-          <folding>
-            <element signature="docComment;class#NettyService#0" expanded="false" />
-            <element signature="method#onCreate#0;class#NettyService#0" expanded="false" />
-            <element signature="method#onStartCommand#0;class#NettyService#0" expanded="false" />
-            <element signature="method#onBind#0;class#NettyService#0" expanded="false" />
-            <element signature="method#connect#0;class#NettyService#0" expanded="false" />
-            <element signature="e#3798#4299#0" expanded="true" />
-            <element signature="e#4298#4299#0" expanded="true" />
-            <element signature="docComment;method#onServiceStatusConnectChanged#0;class#NettyService#0" expanded="false" />
-            <element signature="method#onServiceStatusConnectChanged#0;class#NettyService#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/client/Const.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="665">
@@ -4247,8 +4212,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/beans/send_bean/SendLoginBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="23" />
+        <state relative-caret-position="207">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="e#346#347#0" expanded="true" />
             <element signature="e#381#382#0" expanded="true" />
@@ -4266,6 +4231,24 @@
             <element signature="e#863#864#0" expanded="true" />
             <element signature="e#915#916#0" expanded="true" />
             <element signature="e#959#960#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/netty/NettyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="97" column="17" lean-forward="false" selection-start-line="97" selection-start-column="17" selection-end-line="97" selection-end-column="17" />
+          <folding>
+            <element signature="docComment;class#NettyService#0" expanded="false" />
+            <element signature="method#onCreate#0;class#NettyService#0" expanded="false" />
+            <element signature="method#onStartCommand#0;class#NettyService#0" expanded="false" />
+            <element signature="method#onBind#0;class#NettyService#0" expanded="false" />
+            <element signature="method#connect#0;class#NettyService#0" expanded="false" />
+            <element signature="e#3797#4298#0" expanded="true" />
+            <element signature="e#4297#4298#0" expanded="true" />
+            <element signature="docComment;method#onServiceStatusConnectChanged#0;class#NettyService#0" expanded="false" />
+            <element signature="method#onServiceStatusConnectChanged#0;class#NettyService#0" expanded="false" />
           </folding>
         </state>
       </provider>
