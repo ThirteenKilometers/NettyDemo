@@ -10,10 +10,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c2c51e8-013e-411c-ae6e-ee3dcd675163" name="Default" comment="添加网络接口">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/beans/BaseMagBean.java" afterPath="$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/beans/BaseMagBean.java" />
-    </list>
+    <list default="true" id="1c2c51e8-013e-411c-ae6e-ee3dcd675163" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -169,8 +166,8 @@
       <file leaf-file-name="BaseMagBean.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/beans/BaseMagBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            <state relative-caret-position="210">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1188#1189#0" expanded="true" />
@@ -2677,7 +2674,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1524583886797" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1524583919645" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2723,7 +2720,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1524583886798" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1524583919645" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2904,7 +2901,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1524583886800" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1524583919648" />
       </method>
     </configuration>
     <list size="2">
@@ -2964,7 +2961,14 @@
       <option name="project" value="LOCAL" />
       <updated>1524583348710</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="添加网络接口01">
+      <created>1524583900920</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1524583900920</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -3079,7 +3083,8 @@
     <MESSAGE value="添加Netty 网络请求" />
     <MESSAGE value="添加Netty 网络请求xiu" />
     <MESSAGE value="添加网络接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加网络接口" />
+    <MESSAGE value="添加网络接口01" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加网络接口01" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3654,8 +3659,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/lzhs/com/nettydemo/beans/BaseMagBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        <state relative-caret-position="210">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1188#1189#0" expanded="true" />
