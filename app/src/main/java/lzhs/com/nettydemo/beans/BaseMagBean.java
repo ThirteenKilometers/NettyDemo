@@ -18,6 +18,7 @@ public class BaseMagBean<T> implements Serializable {
      * content : {"success":false,"message":"密码错误","notification":"RESPONES"}
      * success : true
      * message : sucess
+     * requestId : 012
      */
 
     private SenderBean sender;
