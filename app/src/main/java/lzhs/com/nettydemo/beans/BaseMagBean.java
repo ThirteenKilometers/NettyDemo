@@ -22,7 +22,8 @@ public class BaseMagBean<T> implements Serializable {
 
     private SenderBean sender;
     private String method;
-    private String content;
+    private String requestId;
+    private Object content;
     private boolean success;
     private String message;
     private List<RecipientsBean> recipients;
@@ -43,11 +44,19 @@ public class BaseMagBean<T> implements Serializable {
         this.method = method;
     }
 
-    public String getContent() {
+    public Object getContent() {
         return content;
     }
 
-    public void setContent(String content) {
+    public String getRequestId() {
+        return requestId;
+    }
+
+    public void setRequestId(String requestId) {
+        this.requestId = requestId;
+    }
+
+    public void setContent(Object content) {
         this.content = content;
     }
 

@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -22,25 +23,38 @@ import lzhs.com.nettydemo.beans.ContentLoginBean;
 import lzhs.com.nettydemo.beans.MessageEvent;
 import lzhs.com.nettydemo.netty.client.Const;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     public static final String TAG = "MainActivity";
 
     TextView mTextShow;
+   Button mBtnLogin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         EventBus.getDefault().register(this);
-        mTextShow = findViewById(R.id.mTextShow);
+        initView();
     }
 
-    public void sendMessage(View v) {
+    private void initView() {
+        mTextShow = findViewById(R.id.mTextShow);
+        mBtnLogin=findViewById(R.id.mBtnLogin);
+    }
+
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()) {
+            case R.id.mBtnLogin:
+                sendLoginMessage();
+                break;
+        }
+    }
+    public void sendLoginMessage() {
         MessageEvent event = new MessageEvent<String>();
         event.setCode(Const.SEND_CODE);
-        event.setMsg("正在向服务器发送消息");
+        event.setMsg("正在向服务器发送登录消息");
         event.setData(JSONObject.toJSONString(createBean()));
-
         EventBus.getDefault().post(event);
 
     }
@@ -110,4 +124,6 @@ public class MainActivity extends AppCompatActivity {
         stringBuffer.append(text + "\n\r");
         mTextShow.setText(stringBuffer.toString());
     }
+
+
 }
