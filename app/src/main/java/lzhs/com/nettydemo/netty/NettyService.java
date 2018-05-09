@@ -16,6 +16,8 @@ import java.io.UnsupportedEncodingException;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelFutureListener;
+import lzhs.com.library.Utils;
+import lzhs.com.library.utils.log.LogUtils;
 import lzhs.com.nettydemo.beans.MessageEvent;
 import lzhs.com.nettydemo.beans.accept_bean.base.BaseAcceptMsgBean;
 import lzhs.com.nettydemo.netty.client.Const;
@@ -85,6 +87,7 @@ public class NettyService extends Service implements NettyListener {
             byte[] req = new byte[byteBuf.readableBytes()];
             byteBuf.readBytes(req);
             String body = new String(req, "UTF-8");
+            LogUtils.json(body);
             BaseAcceptMsgBean acceptBean = JSON.parseObject(body, BaseAcceptMsgBean.class);
             if (acceptBean.isSuccess()) {
                 msg.setMsg("来自服务器消息,本次请求成功");
@@ -115,6 +118,8 @@ public class NettyService extends Service implements NettyListener {
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void sendMsgToService(MessageEvent event) {/* Do something */
         if (event.getCode() == Const.SEND_CODE)
+            Utils.init(this);
+            LogUtils.json(JSON.toJSONString(event));
             NettyClient.getInstance().sendMsgToServer(((String) event.getData()).getBytes()
                     , new ChannelFutureListener() {
                         @Override

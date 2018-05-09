@@ -12,6 +12,7 @@ import android.util.Log;
 import java.util.ArrayList;
 import java.util.Iterator;
 
+import lzhs.com.library.Utils;
 import lzhs.com.nettydemo.netty.NettyService;
 
 /**
@@ -35,6 +36,7 @@ public class BaseApplication extends Application {
         Log.d(TAG, "onCreate");
         super.onCreate();
         mInstance=this;
+        Utils.init(this);
         if (!isServiceRunning(this, NettyService.class.getName()))
             startService(getIntent());
     }

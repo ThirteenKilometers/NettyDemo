@@ -43,6 +43,13 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:text="设备信息上传接口" />
+
+            <Button
+                android:id="@+id/mBtnLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="获取定位信息" />
         </LinearLayout>
     </ScrollView>
 

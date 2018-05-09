@@ -1,5 +1,6 @@
 package lzhs.com.nettydemo;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
@@ -42,6 +43,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mTextShow = findViewById(R.id.mTextShow);
         findViewById(R.id.mBtnLogin).setOnClickListener(this);
         findViewById(R.id.mBtnUploadDeviceInfo).setOnClickListener(this);
+        findViewById(R.id.mBtnLocation).setOnClickListener(this);
     }
 
     @Override
@@ -54,8 +56,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.mBtnUploadDeviceInfo:
                 data = createUploadDeviceInfoMessage();
                 break;
+            case R.id.mBtnLocation:
+                startActivity(new Intent(this, LocationActivity.class));
+                break;
         }
-        sendMessage(data);
+        // sendMessage(data);
     }
 
     /**
@@ -161,7 +166,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case Const.METHER_UPLOAD_DEVICE_INFO_CODE:  //设备信息上传接口
 
-                AcceptUploadDeviceInfBean uploadDeviceInfBean=JSON.parseObject((String) event.getData(), AcceptUploadDeviceInfBean.class);
+                AcceptUploadDeviceInfBean uploadDeviceInfBean = JSON.parseObject((String) event.getData(), AcceptUploadDeviceInfBean.class);
 
                 break;
         }
