@@ -68,12 +68,12 @@ public class LocationActivity extends AppCompatActivity {
                         public void run() {
                             StringBuffer stringBuffer = new StringBuffer("");
                             stringBuffer
-                                    .append("lastLatitude: " + lastLatitude)
-                                    .append("lastLongitude: " + lastLongitude)
-                                    .append("latitude: " + latitude)
-                                    .append("longitude: " + longitude)
-                                    .append("getCountryName: " + country)
-                                    .append("getLocality: " + locality)
+                                    .append("lastLatitude: " + lastLatitude+"\n")
+                                    .append("lastLongitude: " + lastLongitude+"\n")
+                                    .append("latitude: " + latitude+"\n")
+                                    .append("longitude: " + longitude+"\n")
+                                    .append("getCountryName: " + country+"\n")
+                                    .append("getLocality: " + locality+"\n")
                                     .append("getStreet: " + street);
                             mTextShow.setText(stringBuffer.toString());
                         }
